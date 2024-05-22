@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
-
+    \
 
     <RelativeLayout
         android:id="@+id/dashboard"
@@ -17,7 +16,7 @@
         <View
             android:id="@+id/view"
             android:layout_below="@id/title"
-            android:background="@drawable/background_view"
+            android:background="@android:color/holo_orange_light"
             android:layout_width="match_parent"
             android:layout_height="245sp">
         </View>
@@ -27,14 +26,14 @@
             android:id="@+id/title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#673AB7">
+            android:background="@color/green">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24sp"
                 android:gravity="center"
-                android:text="Maths-Quiz"
+                android:text="CRAZY MATHS"
                 android:textColor="@color/white"
                 android:textSize="50sp"
                 android:textStyle="bold">
@@ -287,7 +286,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Exit"
+                        android:text="Exits"
                         android:textColor="@color/black"
                         android:textStyle="bold"
                         android:textSize="18sp"
@@ -418,7 +417,7 @@
                     android:textSize="17sp"
                     android:text="   Question- 1/100   "
                     android:textColor="@color/white"
-                    android:background="#D82BFF"
+                    android:background="@color/green"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                 </Button>
@@ -509,7 +508,7 @@
                     android:id="@+id/option3Button"
                     android:textSize="30sp"
                     android:text="134"
-                    android:textColor="@color/white"
+                    android:textColor="@android:color/holo_blue_light"
                     android:layout_marginRight="20sp"
                     android:layout_marginLeft="20sp"
                     android:layout_marginBottom="10sp"
